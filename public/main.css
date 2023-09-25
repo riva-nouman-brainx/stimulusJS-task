@@ -1,3 +1,50 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  background-color: #f7819f !important;
+}
+.shop-div {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.btn {
+  background-color: #f7819f !important;
+  border: none !important;
+}
+.row {
+  --bs-gutter-x: none !important;
+}
+.cart-div {
+  margin: 10px;
+  background-color: white;
+}
+.cart-entry {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.entry-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.entry-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.line-break {
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-bottom: solid 2px black;
+}
+.cart {
+  margin-left: 125px;
+}
+.delete-icon {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  margin-left: 440px;
 }
